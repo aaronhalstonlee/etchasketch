@@ -2,15 +2,16 @@
     text-align: center;
 }
 #canvas {
-    border-top: solid gray 0.5px;
-    border-left: solid gray 0.5px;
+    text-align: center;
+    border: solid gray 0.5px;
     display: inline-block;
     height: 1025px;
     width: 1025px;
+    margin: 0;
+    padding: 0;
 }
 .row, .cell {
-    border-bottom: solid gray 0.5px;
-    border-right: solid gray 0.5px;
+    
     
     
     float: left;
@@ -18,8 +19,7 @@
 
 .red {
     background-color: red;
-    border-bottom: solid gray 0.5px;
-    border-right: solid gray 0.5px;
+    
         
     
     float: left;
@@ -27,8 +27,7 @@
 
 .draw {
     background-color: black;
-    border-bottom: solid gray 0.5px;
-    border-right: solid gray 0.5px;
+    
     
 
     float: left;
