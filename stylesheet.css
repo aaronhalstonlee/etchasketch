@@ -1,0 +1,40 @@
+#container {
+    text-align: center;
+}
+#canvas {
+    border-top: solid gray 0.5px;
+    border-left: solid gray 0.5px;
+    display: inline-block;
+    height: 656px;
+    width: 656px;
+}
+.row, .cell {
+    border-bottom: solid gray 0.5px;
+    border-right: solid gray 0.5px;
+    height: 40px;
+    width: 40px;
+    float: left;
+}
+
+.red {
+    background-color: red;
+    border-bottom: solid gray 0.5px;
+    border-right: solid gray 0.5px;
+    height: 40px;
+    width: 40px;
+    float: left;
+}
+
+.draw {
+    background-color: black;
+    border-bottom: solid gray 0.5px;
+    border-right: solid gray 0.5px;
+    height: 40px;
+    width: 40px;
+    float: left;
+}
+
+button {
+    position: absolute;
+    top: 0;
+}
