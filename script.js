@@ -1,6 +1,7 @@
 //global variables
 var canvas;
 var gridSize = prompt('how big a grid you want, yo?');
+var randomColor = false;
 //
 
 //grid creation logic
@@ -39,9 +40,10 @@ generateDiv(gridSize);
 //clear button
 const btn = document.createElement('button');
 btn.innerHTML = "Clear";
-btn.id = "button";
+btn.id = "clear";
 document.body.appendChild(btn);
-const button = document.getElementById("button")
+
+const button = document.getElementById("clear")
 button.addEventListener("click", (e) => {
   canvas.innerHTML = "";
   gridSize = prompt('how big a grid you want, yo?')
@@ -49,3 +51,15 @@ button.addEventListener("click", (e) => {
 })
 //
 
+//random color button
+const colBtn = document.createElement('button');
+colBtn.innerHTML = "Random Color";
+colBtn.class = "color";
+colBtn.id = "random";
+document.body.appendChild(colBtn);
+
+const color = document.getElementById('random');
+color.addEventListener("click", () => {
+    randomColor ? randomColor = false : randomColor = true;
+    console.log(randomColor);
+})

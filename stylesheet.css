@@ -34,7 +34,12 @@
     float: left;
 }
 
-button {
+#clear {
     position: absolute;
     top: 0;
+}
+
+#random {
+    position: absolute;
+    top: 30px;
 }
